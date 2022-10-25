@@ -285,7 +285,7 @@ footer span {
 }
 
 
-@media(max-width: 450px) {
+@media(max-width: 540px) {
     .btn {
         opacity: 1;
     }
@@ -301,7 +301,6 @@ footer span {
     }
 
     #disclaimer h2 {
-        font-size: 2.7em;
         margin-bottom: .5em;
     }
 
@@ -388,6 +387,29 @@ footer span {
     }
 }
 
+@media (max-width: 1024px) and (min-width: 550px) {
+    .btn {
+        opacity: 1;
+    }
+
+    #subscription-form {
+        max-width: 32%;       
+    }
+
+    .benefit .benefit-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    #detail-1 h3{
+        font-size: 1.8em;            
+    }
+
+    .detail h3 {        
+        font-size: 1.8em;        
+    }
+
+}
 
 
 
