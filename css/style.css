@@ -19,11 +19,12 @@
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/hrz-5.jpg");
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: var(--text-color);
+    
 }
 
 #disclaimer h2,
@@ -284,6 +285,17 @@ footer span {
     font-weight: bold;
 }
 
+
+@media (max-width: 415px) and (max-height: 920px) {
+    .event-date{
+        padding-bottom: 580px;
+    }
+
+    #btn-form
+    {
+        margin-top: 220px;
+    }
+}
 
 @media(max-width: 540px) {
     .btn {
