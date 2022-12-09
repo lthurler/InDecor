@@ -32,7 +32,7 @@
     color: var(--primary);
 }
 
-#disclamer h2{
+#disclaimer h2{
     font-size: 3em;
     margin-bottom: 1em;
 }
@@ -45,8 +45,8 @@
     margin-bottom: 1em;
 }
 
-#disclaimer p{
-    font-size: 1.2em;
+#disclaimer p {
+    font-size: 1.3em;
     margin-bottom: .3em;
 }
 
@@ -54,7 +54,7 @@
     font-weight: bold;
 }
 
-#subscription-form{
+#subscription-form {
     background-color: var(--secondary);
     padding: 2em;
     max-width: 22%;
